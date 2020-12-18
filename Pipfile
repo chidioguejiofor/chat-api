@@ -4,12 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flask-shell-ipython = "*"
 
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
 python-dotenv = "*"
 flask-migrate = "*"
+passlib = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
