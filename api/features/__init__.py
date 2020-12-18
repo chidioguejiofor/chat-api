@@ -1,1 +1,1 @@
-from .auth.view import login_user
+from .auth import *
