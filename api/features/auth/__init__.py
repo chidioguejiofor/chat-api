@@ -1,2 +1,2 @@
-from .view import login_user
+from .view import register_user
 from .model import User

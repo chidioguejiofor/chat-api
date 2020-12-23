@@ -26,6 +26,9 @@ class BaseModel(db.Model):
         db.session.add(self)
         self._commit_or_flush(commit)
 
+    def update(self):
+        db.session.commit()
+
     @classmethod
     def _commit_or_flush(cls, commit):
         if commit:

@@ -1,4 +1,5 @@
 """API Initialization Module"""
+import pytest
 from flask import Flask, jsonify, Blueprint
 
 from flask_sqlalchemy import SQLAlchemy
