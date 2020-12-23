@@ -5,6 +5,9 @@ verify_ssl = true
 
 [dev-packages]
 flask-shell-ipython = "*"
+pytest-env = "*"
+pytest = "*"
+pytest-cov = "*"
 
 [packages]
 flask = "*"
@@ -13,6 +16,10 @@ python-dotenv = "*"
 flask-migrate = "*"
 passlib = "*"
 psycopg2-binary = "*"
+marshmallow = "*"
+pyjwt = "*"
+faker = "*"
+
 
 [requires]
 python_version = "3.7"

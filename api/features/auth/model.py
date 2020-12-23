@@ -30,3 +30,6 @@ class User(BaseModel):
     def password(self, password_str):
         self._password = password_str
         self.password_hash = pbkdf2_sha512.hash(password_str)
+
+    def verify_password(self, password_str):
+        return pbkdf2_sha512.verify(password_str, self.password_hash)
